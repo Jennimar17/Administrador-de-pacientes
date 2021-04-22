@@ -15,12 +15,12 @@ h2 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Comfortaa", cursive;
+  
   letter-spacing: 1px;
 }
 
-.principal-title {
-  font-family: "Comfortaa", cursive;
+h1 {
+  
   color: #fff;
   font-size: 40px;
   font-weight: 500;
@@ -31,9 +31,24 @@ h2 {
 }
 
 .principal-container {
-  display: flex;
+  width: 50%;
   position: absolute;
-  left: 150px;
+  left: 50px;
+  z-index: 1;
+  
+  
+}
+
+.form-container {
+  
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+  padding: 50px;
 }
 
 .container-principal__img {
@@ -119,3 +134,38 @@ input[type="time"] {
   text-align: center;
   font-family: "Staatliches", cursive;
 }
+
+@media(max-width:800px){
+  
+  .principal-container{
+    width: 100%;
+    
+    position: absolute;
+  left: 0;
+  }
+
+  .form-container{
+    width: 100%;
+    padding: 50px;
+  }
+
+  .container-principal__img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .principal-img {
+    width: 100%;
+    height: auto;
+  }
+  h1{
+    padding: 0;
+    font-size: 30px;
+
+  }
+
+}
+
+

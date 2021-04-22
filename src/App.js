@@ -5,18 +5,18 @@ import image from "./components/drapixie.jpg";
 function App() {
   return (
     <Fragment>
-      <h1 className="principal-title">Administrador de Pacientes</h1>
+      <h1>Administrador de Pacientes</h1>
 
       <div className="container principal-container">
 
-        <div className="one-half column form-container">
+        <div className="column form-container">
           <Formulario />
         </div>
       </div>
 
       <div className="container-principal__img">
-        <img src={image} className="principal-img" />
-      </div>
+          <img src={image} className="principal-img" />
+        </div>
     </Fragment>
   );
 }
