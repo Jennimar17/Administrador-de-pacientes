@@ -1,3 +1,59 @@
+# Proyecto Administrador de Pacientes
+
+Mi primer Proyecto realizado con React.
+
+
+## Tecnologías
+
+Las tecnologías utilizadas en este proyecto son:
+
+- HTML5
+- CSS3
+- JS ES6
+- REACT
+- SKELETON (Librería css)
+- GIT
+
+## Información
+
+El proyecto fue realizado tomando como base el siguiente proyecto: [Administrador de Pacientes](https://github.com/juanpablogdl/citas_react).
+El diseño: Paleta de colores, imagenes y tipografías fueron modificados a mi gusto.
+Es una pequeña y responsive web app, que sirve para crear citas agregando informacion como nombre del paciente, motivo de consulta, fecha de la cita y observaciones (externer la informacion sobre el motivo de consulta, agregar sintomas, obra social, dato de contacto u alguna otra información relevante que describa el paciente). Tiene la funcionalidad de almacenar las citas en el localStorage (por más que se recargue la página, las citas agregadas se mantendrán) y eliminarlas una véz ya no la necesitemos.
+
+## Link
+
+[Proyecto Administrador de Pacientes](https://nostalgic-hamilton-37a5ce.netlify.app/).
+
+-----------------------------------------------------------------------------------------
+
+# Project Patient Manager
+
+My first Project made with React.
+
+
+## Technologies
+
+The technologies used in this project are:
+
+- HTML5
+- CSS3
+- JS ES6
+- REACT
+- SKELETON (css library)
+- GIT
+
+## Information
+
+The project was carried out based on the following project: [Patient Manager](https://github.com/juanpablogdl/citas_react).
+Design: Color palette, images and fonts were modified to my liking.
+It is a small and responsive web app, which is used to create appointments by adding information such as the patient's name, reason for consultation, appointment date and observations (externalize the information about the reason for consultation, add symptoms, social work, contact information or any other relevant information describing the patient). It has the functionality of storing the appointments in the localStorage (no matter how much the page is reloaded, the added appointments will be kept) and delete them once we no longer need them.
+
+## Link
+
+[Project Patient Manager](https://nostalgic-hamilton-37a5ce.netlify.app/).
+
+-----------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
