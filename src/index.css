@@ -18,9 +18,22 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  margin: 0;
+  padding-top: 30px;
   box-sizing: border-box;
   text-align: center;
+}
+
+.sub-title{
+  color: #fafafa;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  text-align: center;
+
 }
 
 .form-container {
@@ -73,10 +86,16 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 30px;
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
   
 
+}
+
+.button-eliminar-style{
+  background-color: red;
+  color: #fafafa;
+  width: 20%;
 }
 
 h3{
@@ -123,6 +142,23 @@ input[type="time"] {
   box-sizing: border-box;
 }
 
+.header{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.logo-style{
+  width: 300px;
+}
+
+.logo{
+  width: 100%;
+  
+}
+
 
 
 @media (max-width: 800px) {
@@ -138,8 +174,28 @@ input[type="time"] {
   }
 
   .img {
-    width: 200%;
+    width: 100%;
+    position: absolute;
+    left: 200px;
+    top:20px;
     
     
+  }
+
+  .button-eliminar-style{
+    
+    width: 100%;
+  }
+
+  .cards-citas{
+    margin: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    
+  
+  }
+
+  .logo-style{
+    width: 200px;
   }
 }
